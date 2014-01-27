@@ -1,0 +1,6 @@
+<% layout('layout') -%>
+<ul>
+  <% slides.forEach(function(slide, i) { %>
+    <li><a href="/slides/<%=i%>"><%=slide.title%></a></li>
+  <% }); %>
+</ul>

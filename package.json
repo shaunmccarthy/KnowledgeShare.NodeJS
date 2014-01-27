@@ -1,0 +1,16 @@
+{
+  "name": "knowledgeshare-nodejs",
+  "version": "0.0.1",
+  "description": "A simple example of how to use node.js, express and redis",
+  "main": "server.js",
+  "repository": "",
+  "author": "Shaun McCarthy <web@shaunmccarthy.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "ejs": "~0.8.5",
+    "socket.io": "~0.9.14",
+    "ejs-locals": "~1.0.2",
+    "node.extend": "~1.0.9"
+  }
+}

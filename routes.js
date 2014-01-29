@@ -18,6 +18,6 @@ var configureRoutes = function configureRoutes(server) {
   });
   
   server.use(express.static(__dirname + '/client'));
-}
+};
 
 exports.configureRoutes = configureRoutes;
